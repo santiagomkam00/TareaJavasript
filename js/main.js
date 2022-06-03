@@ -17,7 +17,7 @@ while(bienvenida!=3){
                 alert("Opcion incorrecta. Vuelva prontos")
                 break;
             }
-        }else{
+        }else {
             let burger = parseInt(prompt("1. Simple\n2. Especial\n3. Completa"))
             switch(burger){
                 case 1:
@@ -34,4 +34,5 @@ while(bienvenida!=3){
                             break;
                         }
                     }
+        bienvenida = (prompt("Ingrese 3 para salir"))
 }
